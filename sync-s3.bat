@@ -14,8 +14,8 @@ goto:main
    echo Schedule this BATCH file using Windows Task Scheduler by:
    echo - Open Task Scheduler and create new task.
    echo - In General, set 'Run wether user is logged in or not', and 'Do not store password'.
-   echo - In Actions, Add an action to run a program and select this script.
-   echo - In Triggers, Add a trigger to add a daily trigger and set repeat to a desirable option.
+   echo - In Actions, add an action to run a program and select this script.
+   echo - In Triggers, add a daily trigger and set repeat to a desirable option.
    echo .
    echo Run this script on shell using '--delete' to remove deleted files also from s3 and prevent re-downloading them.
 goto:eof
