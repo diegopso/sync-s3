@@ -37,8 +37,8 @@ Create S3 bucket and also AWS CLI Access Key and Secret for S3 using IAM, a samp
 Schedule the batch file using Windows Task Scheduler by:
 - Open Task Scheduler and create new task.
 - In General tab, chose a name and set 'Run wether user is logged in or not', and 'Do not store password'
-- In Actions tab, Add an action to run a program and select this script
-- In Triggers tab, Add a trigger to add a daily trigger and set repeat to a desirable option
+- In Actions tab, add an action to run a program and select this script
+- In Triggers tab, add a daily trigger and set repeat to a desirable option
 
 ## Flags
 
